@@ -37,7 +37,7 @@ class DepthMeasurementCounterTest {
 
     @Test
     void testDay_1_part2() {
-        DepthMeasurementCounter keyFinder = new DepthMeasurementCounter("coordinates_day2_part2.txt");
+        DepthMeasurementCounter keyFinder = new DepthMeasurementCounter("coordinates_day1_part2.txt");
 
         int totalDepthIncrements = keyFinder.countDepthIncrementsBy(3);
 
